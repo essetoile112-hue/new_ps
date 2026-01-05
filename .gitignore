@@ -1,0 +1,60 @@
+# Node
+node_modules/
+
+# Backend env and keys
+backend/.env
+backend/serviceAccountKey.json
+
+# Frontend (already has its own .gitignore but keep safe)
+frontend/.env
+frontend/.env.local
+
+# Misc
+.DS_Store
+.vscode/
+.idea/
+# Node
+node_modules/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Service account and secret JSONs
+**/serviceAccountKey.json
+**/serviceAccountKey.*.json
+**/client_secret.json
+**/client_secret.*.json
+
+# OS and editor
+.DS_Store
+.vscode/
+
+# Build outputs
+dist/
+build/
+coverage/
+
+# Logs
+npm-debug.log*
+
+# Build / distribution artifacts
+
+backend/dist/
+.vite/
+frontend/.vite/
+frontend/dist/
+frontend/node_modules/
+
+# Other caches
+.cache/
+dist/
+build/
+# Google client secret (local only)
+backend/client_secret.json
+
+# backend secrets
+backend/serviceAccountKey.json
+backend/client_secret.json
+backend/.env

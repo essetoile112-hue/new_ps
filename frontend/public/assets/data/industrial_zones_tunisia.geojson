@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "name": "Sfax Industrial Area", "level": "high" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.7400, 34.7396]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Rades Industrial Zone", "level": "medium" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.8100, 36.7697]
+      }
+    }
+    ,
+    {
+      "type": "Feature",
+      "properties": { "name": "Gabès Industrial Area", "level": "high" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0982, 33.8815]
+      }
+    }
+  ]
+}
